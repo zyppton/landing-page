@@ -14,13 +14,15 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     margin: 0px;
-    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .header ul {
@@ -29,7 +31,7 @@ body {
     padding: 0;
     list-style-type: none;
     gap: 20px;
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 
 .header a {
@@ -42,11 +44,46 @@ body {
     display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
+    padding-top: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    gap: 40px;
+    padding-bottom: 100px;
+    align-items: flex-start;
 }
 
 .section-one img {
     flex-basis: auto;
     flex-shrink: 1;
-    width: 300px;
+    width: 450px;
     max-width: 100%;
+}
+
+.text-one {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.header-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.body-one {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 6px 25px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 10px;
 }
