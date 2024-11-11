@@ -87,3 +87,43 @@ body {
     border: 0px;
     margin-top: 10px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.header-two {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.description {
+    width: 150px;
+    text-align: center;
+    margin-top: 4px;
+    color: #303030;
+}
